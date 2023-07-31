@@ -1,4 +1,4 @@
-package com.example.inthebeningin.activity
+package com.example.inthebeningin.activity.ex3
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
