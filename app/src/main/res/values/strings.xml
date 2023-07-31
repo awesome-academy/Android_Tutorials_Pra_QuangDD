@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IntheBeningin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="send_btn">Send</string>
+    <string name="reply_btn">Reply</string>
+    <string name="yes_message">ARTICLE: Like</string>
+    <string name="no_message">ARTICLE: Thanks</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="question_article">LIKE THE ARTICAL?</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
