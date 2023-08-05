@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ex6.Ex6Activity">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/nothing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_12"
+        android:text="@string/book"
+        app:layout_constraintStart_toEndOf="@id/button_open"
+        app:layout_constraintTop_toTopOf="@id/book_img" />
+
+    <TextView
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:text="@string/graph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/button_open"
+        app:layout_constraintTop_toBottomOf="@+id/nothing_text" />
+
+    <ImageView
+        android:id="@+id/book_img"
+        android:layout_width="@dimen/sp_90"
+        android:layout_height="@dimen/sp_90"
+        app:layout_constraintBottom_toTopOf="@id/button_open"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/book"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
