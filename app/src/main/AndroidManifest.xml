@@ -21,24 +21,29 @@
         android:theme="@style/Theme.IntheBeningin"
         tools:targetApi="31">
         <activity
-            android:name=".activity.ex6.Ex6Activity"
+            android:name=".activity.ex8.Ex8Activity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ex6.Ex6Activity"
+            android:exported="false">
+
         </activity>
         <activity
             android:name=".activity.ex5.Ex5Activity"
-            android:exported="true"></activity>
+            android:exported="false" />
         <activity
             android:name=".activity.ex3.AfterlifeActivity"
-            android:exported="true"
+            android:exported="false"
             android:parentActivityName=".activity.ex3.MainActivity" />
         <activity
             android:name=".activity.ex3.MainActivity"
-            android:exported="true" />
+            android:exported="false" />
     </application>
 
 </manifest>
