@@ -11,6 +11,9 @@
     <string name="open">OPEN</string>
     <string name="close">CLOSE</string>
     <string name="book">Book</string>
+    <string name="team_1">TEAM 1</string>
+    <string name="team_2">TEAM 2</string>
+    <string name="zero">0</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -18,4 +21,7 @@
     <string name="open_location">OPEN LOCATION</string>
     <string name="share_this_text">SHARE THIS TEXT</string>
     <string name="graph">a written or printed work consisting of pages glued or sewn together along one side and bound in covers.</string>
+    <string name="mode_sw">Mode SW</string>
+    <string name="day_mode">DAY MODE</string>
+    <string name="night_mode">NIGHT MODE</string>
 </resources>
