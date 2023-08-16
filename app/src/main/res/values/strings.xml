@@ -24,4 +24,12 @@
     <string name="mode_sw">Mode SW</string>
     <string name="day_mode">DAY MODE</string>
     <string name="night_mode">NIGHT MODE</string>
+    <string name="dialog_message">Click OK to continue or Cancel to stop.</string>
+    <string name="alert_title">Alert</string>
+    <string name="ok">OK</string>
+    <string name="pressed_ok">Pressed OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="pressed_cancel">Pressed Cancel</string>
+    <string name="date_message">Chosen date: day %1$d, month %2$d, year %3$d</string>
+    <string name="pick_date">Pick Date</string>
 </resources>
