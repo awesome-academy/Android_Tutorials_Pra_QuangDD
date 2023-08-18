@@ -20,15 +20,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntheBeningin"
         tools:targetApi="31">
+        <activity
+            android:name=".activity.ex10.Ex10Activity"
+            android:exported="true">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".activity.ex9.Ex9Activity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activity.ex8.Ex8Activity"
